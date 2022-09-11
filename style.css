@@ -1045,13 +1045,12 @@ h4 {
 .p_mid_page {
     font-size: 20px;
     margin-bottom: 0;
-    font-family: 'Roboto';
     font-style: italic;
+    font-weight: 600;
 }
 
 .pdg {
     font-size: 20px;
-    font-family: 'Roboto';
     font-style: inherit;
     font-weight: 400;
 }
@@ -1064,7 +1063,6 @@ h4 {
 .p_mid {
     width: 65%;
     font-size: 23px;
-    font-family: 'Roboto';
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -1081,7 +1079,6 @@ h4 {
     font-size: 22px!important;
     width: 50%!important;
     margin: 0 auto!important;
-    font-family: 'Roboto'!important;
 }
 
 .keywords{
