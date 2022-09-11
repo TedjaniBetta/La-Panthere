@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: 0;
 }
 
 .b-parallax {
@@ -133,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +737,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -775,12 +776,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1039,4 +1040,38 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.p_mid_page {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+.pdg {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: inherit;
+    font-weight: 400;
+}
+
+.site-navigation nav navbar-nav:hover{
+    background: rgb(241, 1, 149);
+    color: greenyellow;
+}
+
+.p_mid {
+    width: 65%;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.cont_top {
+    transition: 1s;
+}
+.cont_top:hover{
+    transform: scale(1.3);
 }
