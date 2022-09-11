@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -1072,6 +1072,14 @@ h4 {
 .cont_top {
     transition: 1s;
 }
+
 .cont_top:hover{
     transform: scale(1.3);
+}
+
+.p_portfolio{
+    font-size: 22px;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Roboto';
 }
