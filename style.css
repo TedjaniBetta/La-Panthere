@@ -1078,8 +1078,8 @@ h4 {
 }
 
 .p_portfolio{
-    font-size: 22px;
-    width: 50%;
-    margin: 0 auto;
-    font-family: 'Roboto';
+    font-size: 22px!important;
+    width: 50%!important;
+    margin: 0 auto!important;
+    font-family: 'Roboto'!important;
 }
