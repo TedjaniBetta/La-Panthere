@@ -324,10 +324,11 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin-top: 10px;
     font-size: 20px;
     transition: 1s;
     list-style-type: none;
+    padding-left: 50%;
 }
 
 .nav li:hover {
@@ -518,8 +519,6 @@ button {
 .form-control {
     border-color: rgb(0 0 0 / 75%);
     box-shadow: none;
-    width: 33%;
-    margin: 0 auto;
 }
 
 .scrollToTop {
@@ -663,7 +662,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -1113,6 +1112,16 @@ h4 {
     color: #000000 !important;
 }
 
-.place {
-    text-align: center;
+label {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.marg {
+    padding-left: 20%;
 }
