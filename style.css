@@ -1083,6 +1083,7 @@ h4 {
 
 .cont_top {
     transition: 1s;
+    margin-top: 25%;
 }
 
 .cont_top:hover{
