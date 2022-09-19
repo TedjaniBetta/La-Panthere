@@ -1046,6 +1046,15 @@ h4 {
     .navbar-collapse.in {
         overflow-y: auto;
     }
+    
+    .width {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marg {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1122,5 +1131,10 @@ label {
 }
 
 .marg {
-    padding-left: 20%;
+    text-align: center;
+}
+
+.width {
+    align-items: center;
+    display: flex;
 }
