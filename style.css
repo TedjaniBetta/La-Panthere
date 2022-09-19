@@ -1121,10 +1121,6 @@ label {
     justify-content: flex-start;
 }
 
-.row{
-    align-items: center;
-}
-
 .marg {
     padding-left: 20%;
 }
